@@ -25,6 +25,7 @@ use layout_analysis::find_text_lines;
 use preprocess::prepare_image;
 use recognition::{RecognitionOpt, TextRecognizer};
 
+pub use rten;
 pub use preprocess::{DimOrder, ImagePixels, ImageSource, ImageSourceError};
 pub use recognition::DecodeMethod;
 pub use text_items::{TextChar, TextItem, TextLine, TextWord};
